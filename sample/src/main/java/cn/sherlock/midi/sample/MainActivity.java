@@ -1,13 +1,13 @@
 package cn.sherlock.midi.sample;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.view.MotionEventCompat;
 import android.view.MotionEvent;
 import android.view.View;
 
 import java.io.IOException;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MotionEventCompat;
 import cn.sherlock.com.sun.media.sound.SF2Soundbank;
 import cn.sherlock.com.sun.media.sound.SoftSynthesizer;
 import jp.kshoji.javax.sound.midi.InvalidMidiDataException;
@@ -16,7 +16,7 @@ import jp.kshoji.javax.sound.midi.Receiver;
 import jp.kshoji.javax.sound.midi.ShortMessage;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
 	private SoftSynthesizer synth;
 	private Receiver recv;
