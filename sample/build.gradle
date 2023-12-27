@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace 'com.rogeralmeida.MidiDriverAndroidSF2.sample'
+    namespace 'cn.sherlock.midi.sample'
     compileSdkVersion 34
 
     defaultConfig {
